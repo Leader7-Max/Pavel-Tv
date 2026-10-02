@@ -480,8 +480,10 @@ ALL = dedupe([*[P(f"countries/{c}.m3u") for c in COUNTRY_BLOCKS],
               *[P(p) for p in CATEGORY_FILES.values()], fra, P("index.m3u"),
               official, extra, st.session_state.custom])
 
-RAW_BLOCKS = {c: sort_channels(P(f"countries/{c}.m3u")) for c in COUNTRY_BLOCKS}
-for k in ("sport", "news", ,
+RAW_BLOCKS = {
+    c: sort_channels(P(f"countries/{c}.m3u"))
+    for c in ["sport", "news"]
+}
         "🇪🇸 Liga": 4335,
     "🇮🇹 Serie A": 4332,
     "🇩🇪 Bundesliga": 4331,
