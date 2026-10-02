@@ -482,8 +482,7 @@ ALL = dedupe([*[P(f"countries/{c}.m3u") for c in COUNTRY_BLOCKS],
 
 RAW_BLOCKS = {c: sort_channels(P(f"countries/{c}.m3u")) for c in COUNTRY_BLOCKS}
 for k in ("sport", "news", ,
-    "🇪🇸 Liga": 4335, "🇮🇹 Serie A": 4332, "🇩🇪 Bundesliga": 4331,
-}
+    "🇪🇸 Liga": 4335, "🇮🇹 Serie A": 4332, "🇩🇪 Bundesliga": 4331,}
 TIMEZONES = {"Cameroun": "Africa/Douala", "France": "Europe/Paris", "Maroc": "Africa/Casablanca",
              "Côte d'Ivoire": "Africa/Abidjan", "Sénégal": "Africa/Dakar", "Canada (Montréal)": "America/Toronto"}
 
@@ -538,8 +537,7 @@ COUNTRY_BLOCKS = ["fr", "cm", "ci", "sn", "ma"]
 CATEGORY_FILES = {
     "sport": "categories/sports.m3u", "news": "categories/news.m3u",
     "ent": "categories/entertainment.m3u", "doc": "categories/documentary.m3u",
-    "movies": "categories/movies.m3u", "series": "categories/series.m3u",
-}
+    "movies": "categories/movies.m3u", "series": "categories/series.m3u",}
 PROBE_EXEMPT = {"canal"}
 
 HOME, FAVS, LANG, COUNTRY, CUSTOM, MATCHES = (
