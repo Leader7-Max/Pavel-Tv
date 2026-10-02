@@ -484,7 +484,8 @@ RAW_BLOCKS = {c: sort_channels(P(f"countries/{c}.m3u")) for c in COUNTRY_BLOCKS}
 for k in ("sport", "news", ,
     "🇪🇸 Liga": 4335, "🇮🇹 Serie A": 4332, "🇩🇪 Bundesliga": 4331,}
 TIMEZONES = {"Cameroun": "Africa/Douala", "France": "Europe/Paris", "Maroc": "Africa/Casablanca",
-             "Côte d'Ivoire": "Africa/Abidjan", "Sénégal": "Africa/Dakar", "Canada (Montréal)": "America/Toronto"}
+             "Côte d'Ivoire": "Africa/Abidjan", "Sénégal": "Africa/Dakar", "Canada (Montréal)": "America/Toronto" 
+             )
 
 # ---------------------------------------------------------------- Données
 POPULAR = [
